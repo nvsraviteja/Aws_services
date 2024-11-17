@@ -1,5 +1,5 @@
 # Elastic Cloud Computing
-it is a virtual server which provides scale up the instance.
+it is a virtual server which provides secure and scalable compute capacity so that the server will be up all the time.
 
 # Steps to launch an Instance
 
