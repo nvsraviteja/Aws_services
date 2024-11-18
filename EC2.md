@@ -21,5 +21,5 @@ for example:
  
 ## Status Checks of EC2 Instance
 Status checks will automatically checks the health of instances there are 2 types: 1. System status check 2. Instance status Check
-System status check: it checks the instance hardware like power and network if there is any failure then AWS will migrate the instance
-Instance status check: it checks the instance software like operating system whether the OS is responding or not
+* System status check: it checks the instance hardware like power and network if there is any failure then AWS will migrate the instance
+* Instance status check: it checks the instance software like operating system whether the OS is responding or not
