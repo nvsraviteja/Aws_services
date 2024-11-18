@@ -23,3 +23,17 @@ for example:
 Status checks will automatically checks the health of instances there are 2 types: 1. System status check 2. Instance status Check
 * System status check: it checks the instance hardware like power and network if there is any failure then AWS will migrate the instance
 * Instance status check: it checks the instance software like operating system whether the OS is responding or not
+
+## Instance state
+It will state the current state of the instance by which we can find out whether the instance is running, stoped, reboting or Terminated.\
+Types of States:
+* Pending: once you launch the instance it will take some time to start running
+* Running: the instance is ready to perform actions on it
+* Stopping: the instance is shutting down
+* Stopped: the instance is stopped can be start
+* Terminating: the instance is about to be deleted perminently
+* Terminated: the instance is deleted perminently
+* Rebooting: the instance is restarting
+* Start: it will start the stopped instance
+* Hibernate: it will pause the instance which means the data in memory will not be lost
+
