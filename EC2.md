@@ -37,3 +37,6 @@ Types of States:
 * Start: it will start the stopped instance
 * Hibernate: it will pause the instance which means the data in memory will not be lost
 
+## Reserved Instance
+it is a feature that allows you to reserve instance for fixed period so that you will charge less compared to on-demand instance.
+
