@@ -1,6 +1,8 @@
 # Elastic Cloud Computing (EC2)
 
+It is a service provided by AWS that offers scalable and resizable virtual servers.\
 It allows users to launch run and manage virtual servers which is also known as instances. This instances are customizable for example: CPU, Memory, Storage, Operating System, 
+
 
 ## Key features of EC2
 
@@ -40,3 +42,8 @@ Types of States:
 ## Reserved Instance
 it is a feature that allows you to reserve instance for fixed period so that you will charge less compared to on-demand instance.
 
+# Security Groups
+* Security group is a virtual firewall which controls the incoming and outgoing traffic from a resource in AWS.
+* Security groups are stateful sets which means
+    * If the request is sent from the instance then the response will reach the instance automatically regardless to the inbound rules
+    * In same way if the request from outside the resource reaches the instance will automatically goes out of the resource.
