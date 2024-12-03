@@ -57,3 +57,36 @@
     * /0 all octets changes
 
 # Subnets
+* Subnets are range of IP addresses within a VPC
+* Subnets allows users to segment or divide the VPC into manageable parts and it improves network organization by which we can identify the resources easily 
+* We can easily manage our infrastructure with the help of subnets
+## Types of Subnets
+* Private Subnet
+    * the resources in this subnet cannot directly communicate with the internet.
+    * to communicate with the internet we need to attach NAT Gateway (Network Address Translation) 
+* Public Subnet
+    * The resources in Public subnet can directly communicate with the internet.
+    * Public subnet is used to store the resources which need internet access
+    * IGW is attached to the VPC so that the instances/resources in public subnet can access the internet 
+* Isolated Subnet
+    * This is a subnet which has no access to internet not even via NAT gateway ot IGW
+    * The resources in this subnet cannot have access to internet.
+    * This is used for resources which should not be accessed through internet.
+    * the resources in this subnet enables internal communication.
+
+# Route Tables
+* It contains some set of rules which are used to direct the incoming network traffic from Internet Gateway
+* Rules contains how the traffic flows from one IP address (source) to another IP address (destination)
+* The Route Tables are associated with one or more subnets in the vpc. the subnet must be associated to the route table.
+* The Route Table consists of range of IP address (destination) and the target (resource)
+## Types of Route Tables
+* Main Route Table
+    * every VPC comes with default route table i.e: Main Route Table
+* Custom Route Table
+    * when user creates a route table that is known as custom route table in this user can provide their specific rules.
+
+# Subnet routing
+* It is a process of directing the traffic between the subnets in a VPC
+
+# VPC PEERING and VPC Connection
+* 
